@@ -151,9 +151,9 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ```json
 {
-    'previous_questions': [1, 4, 20, 15]
-    'quiz_category': {"type": "Science", "id": 1}
- }
+  "previous_questions": [1, 4, 20, 15],
+  "quiz_category": { "type": "Science", "id": 1 }
+}
 ```
 
 - Returns: a single new question object
