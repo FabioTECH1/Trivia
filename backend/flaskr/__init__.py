@@ -95,6 +95,7 @@ def create_app(test_config=None):
 
             return jsonify({
                 'success': True,
+                'id': question_id
             })
         except:
             abort(422)
@@ -181,7 +182,6 @@ def create_app(test_config=None):
                 category=format(quiz_category)).all()
 
         questions = [question.format() for question in questions]
-        # return str(len(questions))
 
         if len(questions) == 0:
             abort(404)

@@ -138,7 +138,8 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ```json
 {
-  "success": true
+  "success": true,
+  "id": 2
 }
 ```
 
